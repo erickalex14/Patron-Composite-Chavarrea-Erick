@@ -1,0 +1,15 @@
+1. Crea una clase abstracta llamada Empleado con las propiedades Nombre (string) y Salario (decimal). Agrega un constructor que reciba el nombre y salario y los asigne a las propiedades correspondientes.
+
+2. Implementa un método abstracto llamado CalcularSalarioTotal() en la clase Empleado. Este método debe devolver un valor decimal y no tener implementación en la clase base.
+
+3. Crea una clase EmpleadoSimple que herede de Empleado. Implementa el método CalcularSalarioTotal() para que devuelva el salario del empleado.
+
+4. Crea una clase Gerente que también herede de Empleado. Agrega una lista de Empleado como campo privado en la clase Gerente.
+
+5. Implementa un constructor en la clase Gerente que acepte el nombre y salario del gerente como parámetros. Inicializa la lista de subordinados dentro del constructor.
+
+6. Agrega un método AgregarSubordinado() a la clase Gerente que acepte un objeto Empleado como parámetro y lo agregue a la lista de subordinados del gerente.
+
+7. Implementa el método CalcularSalarioTotal() en la clase Gerente. Calcula y devuelve el salario total del gerente, sumando su propio salario y el salario total de sus subordinados.
+
+8. En el método Main() de la clase Program, crea algunos objetos EmpleadoSimple y Gerente, configura la estructura jerárquica de empleados y calcula el salario total de la empresa utilizando el método CalcularSalarioTotal() del gerente principal.
